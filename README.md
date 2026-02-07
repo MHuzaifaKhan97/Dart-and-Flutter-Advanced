@@ -21,30 +21,31 @@ architecture, and native integration**.
 - Measure performance, don’t guess
 - Architecture over hacks
 
-## Folder Structure
+## Repository Structure
 
+```text
 dart-flutter-mastery/
 │
 ├── dart-advanced/
-│   ├── concurrency/
-│   ├── isolates/
-│   ├── vm-internals/
-│   ├── memory/
-│   └── ffi/
+│   ├── concurrency/            # Advanced concurrency techniques in Dart
+│   ├── isolates/               # Isolate-based parallel processing
+│   ├── vm-internals/           # Dart VM architecture and internals
+│   ├── memory/                 # Memory management and optimization
+│   └── ffi/                    # Dart FFI (Foreign Function Interface) for native integration
 │
 ├── flutter-advanced/
-│   ├── framework-internals/
-│   ├── state-management/
-│   ├── performance/
-│   ├── animations/
-│   ├── networking-security/
-│   ├── platform-native/
-│   ├── architecture/
-│   └── engine/
+│   ├── framework-internals/    # Understanding Flutter framework internals
+│   ├── state-management/       # Advanced state management (Riverpod, GetX, Bloc)
+│   ├── performance/            # Performance optimization and profiling
+│   ├── animations/             # Custom and complex animations
+│   ├── networking-security/    # Networking, security, and API integration
+│   ├── platform-native/        # Platform channels and native integrations
+│   ├── architecture/           # Clean architecture, modular and scalable design
+│   └── engine/                 # Flutter engine internals and rendering pipeline
 │
 ├── projects/
-│   ├── super-app/
-│   ├── ai-assistant/
-│   └── native-power-app/
+│   ├── super-app/              # Large-scale full-featured app project
+│   ├── ai-assistant/           # AI-powered assistant app
+│   └── native-power-app/       # Advanced native integrations and optimizations
 │
-└── README.md
+└── README.md                   # This file
